@@ -65,74 +65,81 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header 	{
-	min-height: 50px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
+a   {
+    color: #222;
+    text-decoration: none;
 }
 
-nav 	{
-	display: inline-block;
-	margin-right: 50px;
+header  {
+    position: relative;
+    height: 60px;
 }
 
-a 	{
-	color: #222;
-	text-decoration: none;
+nav     {
+    display: inline-block;
 }
 
-#logo 	{
-	display: inline-block;
+#logo   {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    padding-top: 15px;
 }
 
-ul 	{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	display: inline-block;
+ul   {
+    margin: 0;
+    padding: 0;
+    ;list-style-type: none;
 }
 
-ul li 	{
-	display: inline-block;
-	text-align: center;
+ul li   {
+    display: inline-block;
 }
 
-nav ul li a		{
-	text-decoration:  none;
-	 margin-right: 5em; 
-	color: grey;
-	padding: 10px;
-	font-size: 16px;
-	display: block;
+ul li a     {
+    display: inline-block;
+    padding: 20px 15px;
+    margin-right: 3em;
+    color: grey;
+    font-weight: 500;
+
+}
+
+main    {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .right-container 	{
 	display: inline-block;
-	width: 50%;
+	width: 48%;
 	text-align: center;
 	
 }
 .left-container 	{
 	display: inline-block;
 	margin-right: -4px;
-	width: 50%;
+	width: 48%;
 	height: 100%;
-	text-align: center;
-	padding-top: -20px;
+    text-align: center;
+    padding: 30px;
 }
 
-main 	{
-	width: 85%;
-	margin: 0 auto;
-	margin-top: 50px;
+.image-container img	{
+	display: block;
+	margin: auto;
+	width: 100%;
 }
-
-
 
 .statement-text 	{
 	font-size: 100px;
+}
+
+section 	{
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .ctn 	{
@@ -145,20 +152,10 @@ main 	{
 	font-weight: 700;
 }	
 
-section 	{
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
 
-.middle-container 	{
+middle-container 	{
 	text-align: center;
 	margin: 0 auto;
-}
-
-.image-container img	{
-	display: block;
-	margin: auto;
-	width: 100%;
 }
 
 .top-container 	{
@@ -198,4 +195,10 @@ section 	{
 footer .bottom 	{
 	padding: 20px;
 	text-align: center;
+}
+
+footer    {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
 }
